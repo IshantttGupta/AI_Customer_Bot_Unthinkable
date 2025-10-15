@@ -24,9 +24,18 @@ It demonstrates how an intelligent support system can provide contextual, docume
 
 ---
 
+## Demo Questions
+- My spouse and I both have the same card number. How does Verified by Visa/ MasterCard SecureCode work for both of us?
+- what is NET SAFE?
+- while tryinh to register i am getting error message card - *error message*
+- can i register all of your HDFC bank master card or visa card?
+- How do I register my HDFC Bank Card?
+
 ## 🚀 Run Locally
 
 ### 1️⃣ Create Virtual Environment
 ```bash
 python -m venv venv
 venv\Scripts\activate   # on Windows
+
+
