@@ -4,6 +4,10 @@ This project is a smart AI Customer Support Chatbot built using **Google Gemini*
 
 It demonstrates how an intelligent support system can provide contextual, document-backed responses and handle low-confidence queries with escalation.
 
+## Links
+- Drive : https://drive.google.com/file/d/1AhkVBhRib8LLcGq9qV3e8Jqy4bLwRiir/view?usp=sharing
+- Demo video : https://drive.google.com/file/d/15w-DsXcD0pE2AHmoPjEMRmOef7I32RB_/view?usp=sharing
+
 ---
 
 ## 🧩 Features
