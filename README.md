@@ -47,14 +47,14 @@ pip install fastapi uvicorn langchain langchain-community langchain-google-genai
 
 pip install streamlit requests  # for frontend Requirements
 
-API Requirements
+API Requirements:
 GOOGLE_API_KEY=your_gemini_api_key_here  # in rag_model.py
 
-Backend Server
+Backend Server:
 cd backend
 uvicorn app:app  # for run the backend server
 
-Frontend
+Frontend:
 cd frontend
 streamlit run streamlit_app.py
 
