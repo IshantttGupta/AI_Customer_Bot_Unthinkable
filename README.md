@@ -42,10 +42,7 @@ It demonstrates how an intelligent support system can provide contextual, docume
 python -m venv venv
 venv\Scripts\activate   # on Windows
 
-### 2️⃣ Install Dependencies
-
-#### Backend Requirements
+ Backend Requirements
 Navigate to the backend folder:
-```bash
 cd backend
 
