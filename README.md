@@ -47,7 +47,7 @@ pip install fastapi uvicorn langchain langchain-community langchain-google-genai
 pip install streamlit requests  # for frontend Requirements
 
 for Dataset:
-firstly setup HDFC_faq.txt file on your code base and then copy path and paste on rag_model.py
+-firstly setup HDFC_faq.txt file on your code base and then copy path and paste on rag_model.py
 PDF_PATH = r"Dataset_file_path"  # in rag_model.py
 
 API Requirements:
