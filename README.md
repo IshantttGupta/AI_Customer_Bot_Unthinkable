@@ -37,15 +37,17 @@ It demonstrates how an intelligent support system can provide contextual, docume
 
 ## 🚀 Run Locally
 
-### 1️⃣ Create Virtual Environment
+### 1️⃣ Setup 
 ```bash
 python -m venv venv
 venv\Scripts\activate   # on Windows
 
 Dependencies :
 pip install fastapi uvicorn langchain langchain-community langchain-google-genai faiss-cpu pypdf python-dotenv
-
 pip install streamlit requests  # for frontend Requirements
+
+for Dataset:
+PDF_PATH = r"Dataset_file_path"  # in rag_model.py
 
 API Requirements:
 GOOGLE_API_KEY=your_gemini_api_key_here  # in rag_model.py
