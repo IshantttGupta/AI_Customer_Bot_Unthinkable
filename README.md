@@ -42,7 +42,20 @@ It demonstrates how an intelligent support system can provide contextual, docume
 python -m venv venv
 venv\Scripts\activate   # on Windows
 
- Backend Requirements
-Navigate to the backend folder:
+Dependencies :
+pip install fastapi uvicorn langchain langchain-community langchain-google-genai faiss-cpu pypdf python-dotenv
+
+pip install streamlit requests  # for frontend Requirements
+
+API Requirements
+GOOGLE_API_KEY=your_gemini_api_key_here  # in rag_model.py
+
+Backend Server
 cd backend
+uvicorn app:app  # for run the backend server
+
+Frontend
+cd frontend
+streamlit run streamlit_app.py
+
 
